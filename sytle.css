@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    background-image: url("https://static.daktilo.com/sites/415/uploads/2022/07/08/atakule-3-1657265388.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:rgba(0,0,0,.7);
+    height: 100vh;
+}
+.header{
+    padding:50px 20px 30px 20px;
+}
+.header h1{
+    font-size: 50px;
+    color:#fbb014;
+    text-shadow: 1px 3px rgba(0,0,0,.9);
+}
+.header input{
+    width:100vh;
+    padding: 10px;
+    background: transparent;
+    border:0;
+    outline:0;
+    border-bottom:2px solid #fbb034;
+    font-size:20px;
+    color:#f2f2f2;
+
+}
+.city{
+    font-size:30px;
+    font-weight: 500;
+    margin-bottom:15px;
+    text-shadow:1px 3px rgba(0,0,0,.9);
+    color:aliceblue;
+    display: flex;
+    text-align:left;
+    width: 100vh;
+}
+.temp{
+    font-size:100px;
+    font-weight: 700;
+    margin-bottom:15px;
+    text-shadow:1px 5px rgba(0,0,0,.1);
+    color:aliceblue;
+}
+.descript{
+    color:aliceblue;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+    margin-bottom: 10px;
+}
+.minmax{
+    color:aliceblue;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0,0,0,.8);
+    margin-bottom: 10px;
+}
